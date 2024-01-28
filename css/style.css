@@ -1,0 +1,107 @@
+.maininfo .fa-search
+{
+    top: 35% ;
+    right: 5%;
+    color: #748cf1;
+}
+.maininfo #cityName
+{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.maininfo input{
+background-color: #efefef;
+}
+
+input::-webkit-input-placeholder {
+    color: #bababa !important;
+    font-size: 14px;
+}
+
+.currentInfo img {
+
+width: 35%;
+
+}
+
+.currentInfo .currentTemp
+{
+    color: #212529;
+    font-size: 55px;
+    font-family: 'Quicksand', sans-serif;;
+}
+
+.c
+{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.currentInfo .weatherStatus
+{
+    color: #212529;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+hr
+{
+    width: 50%;
+    margin: auto;
+    color: #bababa; 
+}
+
+.dayInfo .date
+{
+    color: #212529;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+}
+
+.dayInfo .dayTime
+{
+    color: #212529;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.location
+{
+    font-size:40px ;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.details
+{
+    background-color: #efefef;
+}
+
+.details .options button
+{
+border:  none;
+background-color: transparent;
+color: #8C8C8C;
+font-family: 'Quicksand', sans-serif;
+font-size: 20px;
+margin-right: 10px;
+}
+.details .options .selectedDay
+{
+    color: #748cf1;
+    font-size: 25px;
+}
+
+
+
+
+.card .cardcontent {
+    background-color: #748cf1;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+
+}

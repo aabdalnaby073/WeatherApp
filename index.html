@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/5sun.svg">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<section class="container-fluid row">
+
+<div class="maininfo col-md-4 col-sm-12 p-3 d-flex flex-column align-items-center" >
+
+
+<div class="searchbar position-relative w-100">
+    <input type="search" name="searchcity" class="form-control" id="cityName" value="Cairo" placeholder="Cairo">
+    <a href="#" id="searchIcon"><i class="fas fa-search position-absolute"></i></a>
+</div>
+
+
+    <div class="currentInfo text-center my-5 ">
+    </div>
+    
+    
+    <div class="dayInfo text-center mb-5">
+
+    </div>
+    
+    <p class="location"></p>
+
+
+</div>
+
+<div class="details col-md-8 col-sm-12 ">
+
+<div class="row gx-3 gy-2 justify-content-center ">
+
+    <div class="options col-12 mb-5">
+        <button type="button" value="0" class="selectedDay">Today</button>
+        <button type="button" value="1">Tomorrow</button>
+        <button type="button" value="2">After Tomorrow</button>
+    </div>
+
+    <div class="card  col-md-4 col-sm-6 bg-transparent border-0" id="maxTemp">
+
+    </div>
+    <div class="card col-md-4 col-sm-6 bg-transparent border-0" id="minTemp">
+
+    </div>
+    <div class="card col-md-4 col-sm-6 bg-transparent border-0" id="wind">
+
+    </div>
+    <div class="card avgvis col-md-4 col-sm-6 bg-transparent border-0" id="avgvis">
+
+    </div>
+    <div class="card  col-md-4 col-sm-6 bg-transparent border-0" id="avghumidity">
+
+    </div>
+    <div class="card col-md-4 col-sm-6 bg-transparent border-0" id="daily_chance_of_rain">
+    </div>
+    <div class="card col-md-4 col-sm-6 bg-transparent border-0" id="daily_chance_of_snow">
+    </div>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+
+
